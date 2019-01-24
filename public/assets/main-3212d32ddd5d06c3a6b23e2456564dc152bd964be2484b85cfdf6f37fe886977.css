@@ -1,0 +1,427 @@
+@font-face {
+  font-family: AvenirNextCyrBold;
+  src: url('AvenirNextCyr-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: AvenirNextCyrRegular;
+  src: url('AvenirNextCyr-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: AvenirNextCyrDemi;
+  src: url('AvenirNextCyr-Demi.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: AvenirNextCyrMedium;
+  src: url('AvenirNextCyr-Medium.ttf') format('truetype');
+}
+
+body {}
+
+.wow {
+  visibility: hidden;
+}
+
+.background {
+  width: 100%;
+  background-image: url(header.png);
+  background-repeat: no-repeat;
+  height: 750px;
+  background-position: bottom right;
+}
+
+.bannerbar {
+  position: absolute;
+  width: 5000px;
+  height: 750px;
+  right: 1100px;
+  background: rgb(51, 51, 51);
+  opacity: 1;
+}
+
+.bannerbar p {
+  text-align: right;
+}
+
+.logo {
+  position: absolute;
+  text-align: center;
+  left: 180px;
+  top: 30px;
+  width: 250px;
+  height: 60px;
+  color: white;
+  font-size: 23px;
+}
+
+.navbar {
+  position: absolute;
+  right: 85px;
+  top: 40px;
+  float: right;
+  height: 50px;
+}
+
+.navtext {
+  font-family: AvenirNextCyrRegular;
+  line-height: 12px;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding: 7px;
+  color: white;
+}
+
+.navcontactbtn {
+  position: relative;
+  right: 50px;
+  bottom: 10px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0 auto;
+  width: 600px;
+  height: 40px;
+}
+
+ul.hr {
+  margin: 0;
+  /* Обнуляем значение отступов */
+  padding: 4px;
+  /* Значение полей */
+}
+
+ul.hr li {
+  display: inline;
+  /* Отображать как строчный элемент */
+}
+
+.navbtext {
+  line-height: normal;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  font-family: AvenirNextCyrRegular
+}
+
+h1 {
+  font-size: 55px;
+  font-family: AvenirNextCyrBold;
+  line-height: 0.9em;
+  letter-spacing: 0.05em;
+}
+
+p {
+  font-family: AvenirNextCyrRegular
+}
+
+.headerinfo {
+  position: absolute;
+  width: 322px;
+  height: 99px;
+  left: 215px;
+  top: 205px;
+  color: #ffffff;
+}
+
+.navtext:hover {
+  color: rgb(195, 195, 195);
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #14bbca;
+  font-family: AvenirNextCyrBold;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.btn-outline-primary {
+  font-weight: 600;
+  font-family: AvenirNextCyrBold;
+  border-color: #14bbca;
+  color: #14bbca;
+  font-size: 13px;
+}
+
+.btn-outline-primary:hover {
+  background-color: #14bbca;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #14d5e6;
+}
+
+.btn-large {
+  padding: 13px 45px;
+}
+
+.tables {
+  position: relative;
+  top: 618px;
+}
+
+table {
+  width: 100%;
+  height: 131px;
+}
+
+td {
+  width: 200px;
+  height: 131px;
+  border: solid grey;
+  border-width: 1px 1px 0px 1px;
+  text-align: center;
+  font-family: AvenirNextCyrRegular;
+  line-height: 12px;
+  font-size: 30px;
+  letter-spacing: 0.02em;
+  color: white;
+}
+
+.col1 {
+  background-color: #4DC5F5;
+  background-image: url(col1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.col1:hover {
+  background-color: #5bd0ff
+}
+
+.col1 h3 {
+  font-family: AvenirNextCyrRegular;
+  line-height: 0px;
+  font-size: 25px;
+  letter-spacing: 0.02em;
+  color: dimgray;
+  text-align: center;
+}
+
+.col1 .colcontent {
+  position: relative;
+  text-align: center;
+}
+
+.col1 .lowercase {
+  margin-right: 110px;
+  font-size: 14px;
+}
+
+.col1 .colimg {
+  position: relative;
+  right: 100px;
+  top: 60px;
+  width: 100%;
+  height: 100%;
+}
+
+.col2 {
+  background-image: url(col2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.col2:hover {
+  background-color: #4DC5F5
+}
+
+.col2 h3 {
+  font-family: AvenirNextCyrRegular;
+  line-height: 0px;
+  font-size: 25px;
+  letter-spacing: 0.02em;
+  color: gray;
+  text-align: center;
+}
+
+.col2 .colcontent {
+  position: relative;
+  text-align: center;
+}
+
+.col2 .lowercase {
+  margin-right: 95px;
+  font-size: 14px;
+}
+
+.col2 .colimg {
+  position: relative;
+  right: 100px;
+  top: 65px;
+  width: 100%;
+  height: 100%;
+}
+
+.col3 {
+  background-image: url(col3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.col3:hover {
+  background-color: #4DC5F5
+}
+
+.col3 h3 {
+  font-family: AvenirNextCyrRegular;
+  line-height: 0px;
+  font-size: 25px;
+  letter-spacing: 0.02em;
+  color: gray;
+  margin-left: 0px;
+}
+
+.col3 p {
+  margin-right: 100px;
+  font-size: 14px;
+  margin-left: 0px;
+}
+
+.col3 .colcontent {
+  position: relative;
+  text-align: center;
+}
+
+.col3 .colimg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.coldivs {
+  width: 100%;
+  height: 510px;
+}
+
+.coldiv1 {
+  position: absolute;
+  height: 510px;
+  width: 33.4%;
+  left: 0%;
+  box-shadow: inset -4px 0px 5px 0px rgba(227, 227, 227, 1);
+  padding: 1em 0;
+  padding-left: 90px;
+  font-family: AvenirNextCyrRegular;
+  line-height: 60px;
+  font-size: 17px;
+  letter-spacing: 0.02em;
+  color: black;
+  text-align: left;
+}
+
+.coldiv2 {
+  position: absolute;
+  height: 510px;
+  width: 33.4%;
+  left: 33.4%;
+  box-shadow: inset -4px 0px 5px 0px rgba(227, 227, 227, 1);
+  padding: 1em 0;
+  font-family: AvenirNextCyrRegular;
+  line-height: 60px;
+  font-size: 17px;
+  letter-spacing: 0.02em;
+  color: black;
+  text-align: center;
+}
+
+.coldiv3 {
+  position: absolute;
+  height: 510px;
+  width: 33.4%;
+  left: 66.8%;
+  padding: 1em 0;
+  padding-right: 90px;
+  font-family: AvenirNextCyrRegular;
+  line-height: 60px;
+  font-size: 17px;
+  letter-spacing: 0.02em;
+  color: black;
+  text-align: right;
+  float: left;
+}
+
+.about {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background: linear-gradient(90deg, #29E5F1 0%, #4DC5F5 100.1%);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  padding-top: 70px;
+  padding-left: 350px;
+  padding-right: 350px;
+  text-align: center;
+}
+
+.about h1 {
+  font-family: AvenirNextCyrBold;
+  line-height: 0px;
+  font-size: 40px;
+  letter-spacing: 0.02em;
+  color: White;
+}
+
+.about p {
+  font-family: AvenirNextCyrMedium;
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: White;
+}
+
+.workblock {
+  position: relative;
+  width: 100%;
+  height: 844px;
+  background-color: white;
+  padding-top: 98px;
+  text-align: center;
+}
+
+.workblock h1 {
+  font-family: AvenirNextCyrBold;
+  line-height: 0px;
+  font-size: 40px;
+  letter-spacing: 0.02em;
+  color: #303030;
+  padding-bottom: 105px;
+}
+
+.workblock .contentblock {
+  margin: 0px auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 350px 350px 350px;
+  grid-template-rows: 350px 350px 350px 350px 350px 350px;
+}
+
+@media all and (max-width: 1000px) {
+  .workblock .contentblock {
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 350px 350px 350px 350px 350px 350px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .workblock .contentblock {
+    grid-template-columns: 150px;
+    grid-template-rows: 350px 350px 350px 350px 350px 350px;
+  }
+}
+
+.workblock .block {
+  align-items: center;
+  height: 276px;
+  width: 271px;
+  margin: 0 auto;
+  background-color: #999;
+}

@@ -1,0 +1,5 @@
+I";(function() {
+  $('.slider').slick();
+
+}).call(this);
+:ET

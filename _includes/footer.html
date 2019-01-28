@@ -13,19 +13,20 @@
         <iframe src="{{ site.data.main.en.contactus.maplink }}" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen="allowfullscreen"></iframe>
       </div>
       <div class="contactus wow fadeInDown">
+        <form action="https://formspree.io/eugene@milestep.io" method="POST">
         <p>{{ site.data.main.en.contactus.fname }}</p>
-        <input class="form" placeholder="{{ site.data.main.en.contactus.fp-name }}" type="text" name="" value="">
+        <input class="form" placeholder="{{ site.data.main.en.contactus.fp-name }}" type="text" name="name">
         <p>{{ site.data.main.en.contactus.fmail }}</p>
-        <input class="form" placeholder="{{ site.data.main.en.contactus.fp-mail }}" type="email" name="" value="">
+        <input class="form" placeholder="{{ site.data.main.en.contactus.fp-mail }}" type="email" required pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$" name="email" >
         <p>{{ site.data.main.en.contactus.fnum }}</p>
-        <input class="form" placeholder="{{ site.data.main.en.contactus.fp-num }}" type="number" name="" value="">
+        <input class="form" placeholder="{{ site.data.main.en.contactus.fp-num }}" type="number" name="number" >
         <p>{{ site.data.main.en.contactus.fmsg }}</p>
-        <input class="form" placeholder="{{ site.data.main.en.contactus.fp-msg }}" type="text" name="" value="">
+        <input class="form" placeholder="{{ site.data.main.en.contactus.fp-msg }}" type="textarea" name="message">
         <br><br>
         <div class="buttons">
           <button class="btn-primary btn-contact">{{ site.data.main.en.contactus.fcbtn }}</button>
-          <button class="btn btn-outline-primary btn-atach">{{ site.data.main.en.contactus.fabtn}}</button>
         </div>
+        </form>
       </div>
     </div>
     <div class="secondblock">

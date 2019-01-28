@@ -35,14 +35,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-assets
 
-assets:
-    sources:
-        -   _assets/css
-        -   _assets/img
-        -   _assets/js
-        -   _assets/fonts
 
 
 # Exclude from processing.

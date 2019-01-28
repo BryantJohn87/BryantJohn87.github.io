@@ -1,6 +1,6 @@
 @font-face {
   font-family: AvenirNextCyrBold;
-  src:  url('../fonts/AvenirNextCyr-Bold.ttf') format('truetype');
+  src: url('../fonts/AvenirNextCyr-Bold.ttf') format('truetype');
 }
 
 @font-face {
@@ -38,7 +38,6 @@ body {}
 }
 
 .bannerbar {
-
   position: absolute;
   width: 5000px;
   height: 750px;
@@ -323,6 +322,10 @@ td {
   height: 100%;
 }
 
+.mcoldivs {
+  display: none;
+}
+
 .coldivs {
   width: 100%;
   height: 510px;
@@ -571,7 +574,6 @@ td {
   color: white;
   text-align: left;
   text-transform: uppercase;
-
 }
 
 .skilsblock h3 {
@@ -761,8 +763,8 @@ td {
 }
 
 .contactus .buttons {
-  margin-left: 10%;
-  margin-right: 10%;
+  display: flex;
+  justify-content: center;
 }
 
 .contactus .btn-primary {
@@ -1009,6 +1011,10 @@ td {
 }
 
 @media screen and (max-width: 500px) {
+  .background {
+    height: 700px;
+  }
+
   .logo {
     left: 10%;
   }
@@ -1016,7 +1022,6 @@ td {
   .navbar .icon {
     left: 100%;
     float: right;
-
   }
 
   .navbar .icon:hover {
@@ -1034,9 +1039,9 @@ td {
 
   .headerinfo h1 {
     font-size: 35px;
-      font-family: AvenirNextCyrBold;
-      line-height: 0.9em;
-      letter-spacing: 0.05em;
+    font-family: AvenirNextCyrBold;
+    line-height: 0.9em;
+    letter-spacing: 0.05em;
   }
 
   .navcontactbtn {
@@ -1045,6 +1050,52 @@ td {
 
   .desknav {
     display: none;
+  }
+
+  .tables {
+    position: relative;
+    top: 650px;
+  }
+
+  table {
+    width: 100%;
+    height: 50px;
+  }
+
+  td {
+    width: 200px;
+    height: 50px;
+    border: solid grey;
+    border-width: 1px 1px 0px 1px;
+    text-align: center;
+    font-family: AvenirNextCyrRegular;
+    line-height: 12px;
+    font-size: 30px;
+    letter-spacing: 0.02em;
+    color: white;
+  }
+
+  .col1 {
+    background-image: url(../img/mcol1.svg);
+    background-size: 70%;
+  }
+
+  .col2 {
+    background-image: url(../img/mcol2.svg);
+    background-size: 70%;
+  }
+
+  .col3 {
+    background-image: url(../img/mcol3.svg);
+    background-size: 70%;
+  }
+
+  .coldivs {
+    display: none;
+  }
+
+  .mcoldivs {
+    display: block;
   }
 
   .workblock .contentblock {

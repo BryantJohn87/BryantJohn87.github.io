@@ -1,0 +1,86 @@
+<footer>
+<div id="contactus" class="contacts">
+  <div class="firstblock">
+    <section class="wow fadeIn" data-wow-duration="1.3s">
+      <h1>{{ site.data.main.en.contactus.h }}</h1>
+      <br><br>
+      <p>{{ site.data.main.en.contactus.p}}</p>
+    </section>
+    <br>
+  </div>
+  <div class="contactblock">
+    <div class="map wow fadeInDown">
+      <iframe
+        src="{{ site.data.main.en.contactus.maplink }}"
+        width="100%"
+        height="100%"
+        frameborder="0"
+        style="border:0"
+        allowfullscreen="allowfullscreen"></iframe>
+    </div>
+    <div class="contactus wow fadeInDown">
+      <p>{{ site.data.main.en.contactus.fname }}</p>
+      <input class="form" placeholder="{{ site.data.main.en.contactus.fp-name }}" type="text" name="" value="">
+      <p>{{ site.data.main.en.contactus.fmail }}</p>
+      <input class="form" placeholder="{{ site.data.main.en.contactus.fp-mail }}" type="email" name="" value="">
+      <p>{{ site.data.main.en.contactus.fnum }}</p>
+      <input class="form" placeholder="{{ site.data.main.en.contactus.fp-num }}" type="number" name="" value="">
+      <p>{{ site.data.main.en.contactus.fmsg }}</p>
+      <input class="form" placeholder="{{ site.data.main.en.contactus.fp-msg }}" type="text" name="" value="">
+    <br><br>
+    <div class="buttons">
+      <button class="btn-primary btn-contact">{{ site.data.main.en.contactus.fcbtn }}</button>
+      <button class="btn btn-outline-primary btn-atach">{{ site.data.main.en.contactus.fabtn}}</button>
+    </div>
+  </div>
+</div>
+<div class="secondblock">
+  <div class="footer">
+    <div class="navbar">
+      <nav>
+        <ul class="hr">
+          <li>
+            <a class="navtext" href="/">HOME</a>
+          </li>
+          <li>
+            <a class="navtext" href="#solutions">SOLUTIONS</a>
+          </li>
+          <li>
+            <a class="navtext" href="#process">WORK PROCESS</a>
+          </li>
+          <li>
+            <a class="navtext" href="#values">VALUES</a>
+          </li>
+          <li>
+            <a class="navtext" href="#leadership">LEADERSHIP</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="social">
+      <a href="{{ site.data.main.en.footer.s-fb }}">{% asset fb.svg %}</a>
+      <a href="{{ site.data.main.en.footer.s-git }}">{% asset git.svg %}</a>
+      <a href="{{ site.data.main.en.footer.s-in }}">{% asset in.svg %}</a>
+      <a href="{{ site.data.main.en.footer.s-insta }}">{% asset insta.svg %}</a>
+      <a href="{{ site.data.main.en.footer.s-twitter }}">{% asset twitter.svg %}</a>
+    </div>
+    <div class="textblock">
+      <p>“{{ site.data.main.en.footer.text }}”</p>
+    </div>
+    <div class="address">
+      <p>{{ site.data.main.en.footer.a-street }},<br>
+        {{ site.data.main.en.footer.a-region }}
+        <br>
+        {{ site.data.main.en.footer.a-num1 }}
+        <br>
+        {{ site.data.main.en.footer.a-num2 }}
+        <br>
+        {{ site.data.main.en.footer.a-mail }}</p>
+    </div>
+    <div class="copright">
+      <p>{{ site.data.main.en.footer.copright }}</p>
+    </div>
+  </div>
+</div>
+</div>
+</footer>

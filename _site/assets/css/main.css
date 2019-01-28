@@ -1,21 +1,21 @@
 @font-face {
   font-family: AvenirNextCyrBold;
-  src:  url('fonts/AvenirNextCyr-Bold.ttf') format('truetype');
+  src:  url('../fonts/AvenirNextCyr-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: AvenirNextCyrRegular;
-  src: url('fonts/AvenirNextCyr-Regular.ttf') format('truetype');
+  src: url('../fonts/AvenirNextCyr-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: AvenirNextCyrDemi;
-  src: url('fonts/AvenirNextCyr-Demi.ttf') format('truetype');
+  src: url('../fonts/AvenirNextCyr-Demi.ttf') format('truetype');
 }
 
 @font-face {
   font-family: AvenirNextCyrMedium;
-  src: url('fonts/AvenirNextCyr-Medium.ttf') format('truetype');
+  src: url('../fonts/AvenirNextCyr-Medium.ttf') format('truetype');
 }
 
 .wow {
@@ -31,7 +31,7 @@ body {}
 
 .background {
   width: 100%;
-  background-image: url(img/header.png);
+  background-image: url(../img/header.png);
   background-repeat: no-repeat;
   height: 750px;
   background-position: bottom right;
@@ -44,7 +44,7 @@ body {}
   height: 750px;
   right: 1100px;
   background:
-    url(img/bar.png) right top no-repeat,
+    url(../img/bar.png) right top no-repeat,
     rgb(51, 51, 51);
   opacity: 1;
 }
@@ -59,6 +59,8 @@ body {}
   left: 15%;
   top: 30px;
   font-size: 23px;
+  background-image: url(../img/logo.svg);
+  background-repeat: no-repeat;
 }
 
 .navbar {
@@ -212,7 +214,7 @@ td {
 
 .col1 {
   background-color: #4DC5F5;
-  background-image: url(img/col1.svg);
+  background-image: url(../img/col1.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -249,7 +251,7 @@ td {
 }
 
 .col2 {
-  background-image: url(img/col2.svg);
+  background-image: url(../img/col2.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -286,7 +288,7 @@ td {
 }
 
 .col3 {
-  background-image: url(img/col3.svg);
+  background-image: url(../img/col3.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -409,8 +411,8 @@ td {
   padding-bottom: 98px;
   text-align: center;
   background:
-    url(img/vector1.svg) right -300px no-repeat,
-    url(img/vector2.svg) left 250px no-repeat,
+    url(../img/vector1.svg) right -300px no-repeat,
+    url(../img/vector2.svg) left 250px no-repeat,
     linear-gradient(to top, #FBFBFB, #FBFBFB);
 }
 
@@ -459,7 +461,7 @@ td {
   margin: 0px;
   padding-left: 25px;
   padding-right: 25px;
-  background-image: url(img/1.svg);
+  background-image: url(../img/1.svg);
   background-position: top left;
   background-repeat: no-repeat;
 }
@@ -471,7 +473,7 @@ td {
   margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
-  background-image: url(img/2.svg);
+  background-image: url(../img/2.svg);
   background-position: top left;
   background-repeat: no-repeat;
 }
@@ -483,7 +485,7 @@ td {
   margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
-  background-image: url(img/3.svg);
+  background-image: url(../img/3.svg);
   background-position: top left;
   background-repeat: no-repeat;
 }
@@ -495,7 +497,7 @@ td {
   margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
-  background-image: url(img/4.svg);
+  background-image: url(../img/4.svg);
   background-position: top left;
   background-repeat: no-repeat;
 }
@@ -507,7 +509,7 @@ td {
   margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
-  background-image: url(img/5.svg);
+  background-image: url(../img/5.svg);
   background-position: top left;
   background-repeat: no-repeat;
 }
@@ -519,7 +521,7 @@ td {
   margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
-  background-image: url(img/6.svg);
+  background-image: url(../img/6.svg);
   background-position: top left;
   background-repeat: no-repeat;
 }
@@ -534,7 +536,7 @@ td {
   height: 100%;
   float: left;
   background-image:
-    linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/belive.png);
+    linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/belive.png);
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -914,6 +916,41 @@ td {
   letter-spacing: 1em;
 }
 
+.footer .fb {
+  background-image: url(../img/fb.svg);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+}
+
+.footer .git {
+  background-image: url(../img/git.svg);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+}
+
+.footer .in {
+  background-image: url(../img/in.svg);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+}
+
+.footer .insta {
+  background-image: url(../img/insta.svg);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+}
+
+.footer .twitter {
+  background-image: url(../img/twitter.svg);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+}
+
 @media screen and (max-width: 1000px) {
   .workblock .contentblock {
     grid-template-columns: 350px 350px;
@@ -1062,7 +1099,7 @@ td {
     height: 60%;
     float: left;
     background-image:
-      linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(media/belive.png);
+      linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/belive.png);
     background-repeat: no-repeat;
     text-align: center;
   }

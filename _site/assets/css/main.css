@@ -876,7 +876,7 @@ td {
 .footer .copright {
   position: relative;
   float: left;
-  width: 30%;
+  width: 35%;
   text-align: left;
   top: 85%;
 }
@@ -957,6 +957,10 @@ td {
   .workblock .contentblock {
     grid-template-columns: 350px 350px;
     grid-gap: 30px;
+  }
+
+  .desknav {
+    display: none;
   }
 
   .navbar .icon {
@@ -1048,10 +1052,6 @@ td {
     display: none;
   }
 
-  .desknav {
-    display: none;
-  }
-
   .tables {
     position: relative;
     top: 650px;
@@ -1076,8 +1076,13 @@ td {
   }
 
   .col1 {
+    background-color: inherit;
     background-image: url(../img/mcol1.svg);
     background-size: 70%;
+  }
+
+  .col1:hover, .col1:focus {
+    background-color: #5bd0ff
   }
 
   .col2 {
@@ -1095,7 +1100,54 @@ td {
   }
 
   .mcoldivs {
+    width: 100%;
+    height: 510px;
     display: block;
+  }
+
+  .mcoldivs .coldiv1 {
+    position: relative;
+    height: 510px;
+    width: 100%;
+    left: 0%;
+    box-shadow: inset 0px 0px 0px 0px rgba(227, 227, 227, 1);
+    padding: 1em 0;
+    font-family: AvenirNextCyrRegular;
+    line-height: 60px;
+    font-size: 17px;
+    letter-spacing: 0.02em;
+    color: black;
+    text-align: center;
+  }
+
+  .mcoldivs .coldiv2 {
+    position: relative;
+    height: 510px;
+    width: 100%;
+    left: 0%;
+    box-shadow: inset 0px 0px 0px 0px rgba(227, 227, 227, 1);
+    padding: 1em 0;
+    font-family: AvenirNextCyrRegular;
+    line-height: 60px;
+    font-size: 17px;
+    letter-spacing: 0.02em;
+    color: black;
+    text-align: center;
+  }
+
+  .mcoldivs .coldiv3 {
+    position: relative;
+    height: 510px;
+    width: 100%;
+    left: 0%;
+    box-shadow: inset 0px 0px 0px 0px rgba(227, 227, 227, 1);
+    padding: 1em 0;
+    font-family: AvenirNextCyrRegular;
+    line-height: 60px;
+    font-size: 17px;
+    letter-spacing: 0.02em;
+    color: black;
+    text-align: center;
   }
 
   .workblock .contentblock {

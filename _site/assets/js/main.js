@@ -1,4 +1,4 @@
-$(document).ready( function() {
+$(document).ready(function() {
   new WOW().init();
   $('.slider').slick({
     dots: true,
@@ -28,27 +28,45 @@ $(document).ready( function() {
   });
 
   $(".mobnav").hide();
-  	// when .menuBtn is clicked, do this
-  	$("#menuicon").click(function() {
-  		// open the menu with slide effect
-  		$(".mobnav").slideToggle(300);
-  	});
+  // when .menuBtn is clicked, do this
+  $("#menuicon").click(function() {
+    // open the menu with slide effect
+    $(".mobnav").slideToggle(300);
+  });
 
-    $("#close").click(function() {
-      // open the menu with slide effect
-      $(".mobnav").hide();
-    });
-    var anchors = document.querySelectorAll('a[href*="#"]')
-    for (let anchor of anchors) {
-      anchor.addEventListener('click', function(e) {
-        e.preventDefault()
+  $("#close").click(function() {
+    // open the menu with slide effect
+    $(".mobnav").hide();
+  });
+  var anchors = document.querySelectorAll('a[href*="#"]')
+  for (let anchor of anchors) {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault()
 
-        var blockID = anchor.getAttribute('href')
+      var blockID = anchor.getAttribute('href')
 
-        document.querySelector('' + blockID).scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
-        })
+      document.querySelector('' + blockID).scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
       })
-    }
+    })
+  }
+
+  $(".mcoldivs .coldiv2").hide()
+  $(".mcoldivs .coldiv3").hide()
+  $(".col1").click(function() {
+    $(".mcoldivs .coldiv3").hide()
+    $(".mcoldivs .coldiv2").hide()
+    $(".mcoldivs .coldiv1").show()
+  });
+  $(".col2").click(function() {
+    $(".mcoldivs .coldiv1").hide()
+    $(".mcoldivs .coldiv3").hide()
+    $(".mcoldivs .coldiv2").show()
+  });
+  $(".col3").click(function() {
+    $(".mcoldivs .coldiv1").hide()
+    $(".mcoldivs .coldiv2").hide()
+    $(".mcoldivs .coldiv3").show()
+  });
 });

@@ -1,8 +1,11 @@
 $(document).ready(function() {
-  new WOW().init();
+  new WOW({
+    mobile: false,
+    live: true
+  }).init();
   $('.slider').slick({
     dots: true,
-    arrows: true,
+    arrows: false,
     autoplay: true,
     autoplaySpeed: 5000,
     centerPadding: '0px'
@@ -20,21 +23,25 @@ $(document).ready(function() {
     focusOnSelect: true,
     centerMode: true,
     slidesToShow: 3,
-    slidesToScroll: 6
+    slidesToScroll: 3
   });
   $('.center').on('afterChange', function(event, slick, currentSlide, nextSlide) {
     $('.content').hide();
     $('.content[data-id=' + (currentSlide + 1) + ']').show();
   });
 
-  $(".mobnav").hide();
   // when .menuBtn is clicked, do this
   $("#menuicon").click(function() {
     // open the menu with slide effect
     $(".mobnav").slideToggle(300);
   });
 
-  $("#close").click(function() {
+  $("#menuicon2").click(function() {
+    // open the menu with slide effect
+    $(".mobnav").slideToggle(300);
+  });
+
+  $("#close, #close2, #close3, #close4").click(function() {
     // open the menu with slide effect
     $(".mobnav").hide();
   });

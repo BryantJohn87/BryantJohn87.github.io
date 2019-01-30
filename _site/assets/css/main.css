@@ -125,10 +125,6 @@ ul.hr li {
   font-family: AvenirNextCyrRegular
 }
 
-.mobnav .icon:hover {
-  color: grey;
-}
-
 .headerinfo h1 {
   font-size: 55px;
   font-family: AvenirNextCyrBold;
@@ -195,12 +191,11 @@ ul.hr li {
 
 table {
   width: 100%;
-  height: 131px;
 }
 
 td {
   width: 200px;
-  height: 131px;
+  height: 115px;
   border: solid grey;
   border-width: 1px 1px 0px 1px;
   text-align: center;
@@ -332,6 +327,7 @@ td {
 }
 
 .coldiv1 {
+  background: white;
   position: absolute;
   height: 510px;
   width: 33.4%;
@@ -348,6 +344,7 @@ td {
 }
 
 .coldiv2 {
+  background: white;
   position: absolute;
   height: 510px;
   width: 33.4%;
@@ -363,6 +360,7 @@ td {
 }
 
 .coldiv3 {
+  background: white;
   position: absolute;
   height: 510px;
   width: 33.2%;
@@ -401,8 +399,8 @@ td {
   line-height: 30px;
   font-size: 20px;
   letter-spacing: 0.02em;
-  margin-left: 25%;
-  margin-right: 25%;
+  padding-left: 5%;
+  padding-right: 5%;
   color: White;
 }
 
@@ -545,18 +543,18 @@ td {
 }
 
 .skilsblock .skilscontent {
-  float: right;
+  background: white;
+  display: flex;
+  justify-content: center;
   width: 45%;
   height: 100%;
-  padding-top: 211px;
-  padding-bottom: 263px;
-  padding-left: 122px;
-  padding-bottom: 207px;
 }
 
 .skilsblock .slider {
+  position: relative;
+  top: 30%;
   width: 70%;
-  height: 50%;
+  height: 25%;
 }
 
 .skilsblock .imgtext {
@@ -625,12 +623,13 @@ td {
   line-height: 30px;
   font-size: 18px;
   letter-spacing: 0.02em;
-  margin-left: 25%;
-  margin-right: 25%;
+  padding-left: 25%;
+  padding-right: 25%;
   color: rgba(255, 255, 255, 0.5);
 }
 
 .imgsblock {
+  background: white;
   position: relative;
 }
 
@@ -656,11 +655,17 @@ td {
 
 .center {}
 
+.slick-list {
+  outline: none;
+}
+
 .slick-slide img {
   position: relative;
   width: 100%;
   transform: scale(1.0);
 }
+
+.slick-slide:focus { outline: none; }
 
 .slick-current img {
   z-index: 1;
@@ -679,7 +684,7 @@ td {
   text-align: center;
 }
 
-.contacts h1 {
+.firstblock h1 {
   font-family: AvenirNextCyrBold;
   line-height: 0px;
   font-size: 30px;
@@ -688,13 +693,13 @@ td {
   color: White;
 }
 
-.contacts p {
+.firstblock p {
   font-family: AvenirNextCyrMedium;
   line-height: 30px;
   font-size: 18px;
   letter-spacing: 0.02em;
-  margin-left: 25%;
-  margin-right: 25%;
+  padding-left: 25%;
+  padding-right: 25%;
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -735,6 +740,10 @@ td {
   padding-right: 40px;
   float: right;
   background-color: #2A2A2A;
+}
+
+.contacts .cont {
+  display: none;
 }
 
 .contactus p {
@@ -858,7 +867,6 @@ td {
 .footer .address {
   float: right;
   position: relative;
-  width: 20%;
   text-align: right;
   top: 26%;
   right: 15%;
@@ -953,7 +961,7 @@ td {
   height: 25px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .workblock .contentblock {
     grid-template-columns: 350px 350px;
     grid-gap: 30px;
@@ -973,23 +981,25 @@ td {
   }
 
   .mobnav {
+    display: none;
     position: fixed;
     top: 0;
-    left: 50%;
-    width: 50%;
+    left: 60%;
+    width: 100%;
     height: 100%;
     background-color: #303030;
+    z-index: 9999;
   }
 
   .mobnav li {
-    list-style-type: none;
+    list-style-type: inherit;
     align-items: center;
   }
 
   .mobnav .navtext {
     font-family: AvenirNextCyrRegular;
-    line-height: 100px;
-    font-size: 50px;
+    line-height: 50px;
+    font-size: 20px;
     letter-spacing: 0.02em;
     text-transform: uppercase;
     padding: 7px;
@@ -1003,14 +1013,128 @@ td {
     height: 1003px;
   }
 
-  .mobnav .icon {
-    float: right;
-    margin-top: 2%;
-    margin-right: 5%;
-    bottom: 20%;
-    right: 15%;
+  .mobnav ul.hr li {
+    display: block;
+    /* Отображать как строчный элемент */
+  }
+
+  td {
+    width: 200px;
+    height: 110px;
+    border: solid grey;
+    border-width: 1px 1px 0px 1px;
+    text-align: center;
+    font-family: AvenirNextCyrRegular;
+    line-height: 12px;
+    font-size: 30px;
+    letter-spacing: 0.02em;
     color: white;
-    font-size: 40px;
+  }
+
+  .about {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(90deg, #29E5F1 0%, #4DC5F5 100.1%);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    padding-top: 8%;
+    text-align: center;
+  }
+
+  .about p {
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .skilsblock .imgtext {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 30%;
+    padding-left: 10%;
+    padding-right: 30%;
+    padding-bottom: 25%;
+    font-family: AvenirNextCyrBold;
+    line-height: 95px;
+    font-size: 65px;
+    letter-spacing: 0.02em;
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .skilsblock .slider {
+    position: relative;
+    top: 30%;
+    width: 100%;
+    height: 25%;
+  }
+
+  .leadership {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #303030;
+    padding-top: 7%;
+    text-align: center;
+  }
+
+  .leadership h1 {
+    font-family: AvenirNextCyrBold;
+    line-height: 0px;
+    font-size: 30px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: White;
+  }
+
+  .leadership p {
+    font-family: AvenirNextCyrMedium;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .contacts .contactblock {
+    width: 100%;
+  }
+
+  .footer .address {
+    float: right;
+    position: relative;
+    text-align: right;
+    top: 26%;
+    right: 5%;
+  }
+
+  .footer .navbar {
+    position: relative;
+    float: left;
+    top: 25%;
+    left: 0%;
+  }
+
+  .footer .social {
+    position: absolute;
+    width: 30%;
+    top: 30%;
+    left: 33%;
+    letter-spacing: 1em;
+  }
+
+  .footer .copright {
+    position: absolute;
+    float: left;
+    width: 45%;
+    text-align: left;
+    left: 5%;
+    top: 80%;
   }
 }
 
@@ -1024,12 +1148,8 @@ td {
   }
 
   .navbar .icon {
-    left: 100%;
     float: right;
-  }
-
-  .navbar .icon:hover {
-    color: grey;
+    display: none;
   }
 
   .headerinfo {
@@ -1052,6 +1172,10 @@ td {
     display: none;
   }
 
+  .btn-large {
+    padding: 10px 28px;
+  }
+
   .tables {
     position: relative;
     top: 650px;
@@ -1065,14 +1189,6 @@ td {
   td {
     width: 200px;
     height: 50px;
-    border: solid grey;
-    border-width: 1px 1px 0px 1px;
-    text-align: center;
-    font-family: AvenirNextCyrRegular;
-    line-height: 12px;
-    font-size: 30px;
-    letter-spacing: 0.02em;
-    color: white;
   }
 
   .col1 {
@@ -1150,12 +1266,33 @@ td {
     text-align: center;
   }
 
+  .about {
+    height: 305px;
+    padding-top: 15%
+  }
+
+  .about h1 {
+    font-size: 30px;
+  }
+
+  .about p {
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
   .workblock .contentblock {
     grid-template-columns: 350px;
     grid-gap: 30px;
   }
 
+  .workblock {
+    padding-bottom: 35px;
+  }
+
   .mobnav {
+    display: none;
     position: fixed;
     top: 0;
     left: 35%;
@@ -1165,7 +1302,7 @@ td {
   }
 
   .mobnav li {
-    list-style-type: none;
+    list-style-type: inherit;
     align-items: center;
   }
 
@@ -1186,15 +1323,23 @@ td {
     height: 1003px;
   }
 
-  .mobnav .icon {
-    position: absolute;
-    float: left;
-    left: 45%;
-    bottom: 93%;
-    width: 50px;
-    height: 50px;
+  .icon {
+    position: fixed;
+    top: 3%;
+    left: 75%;
     color: white;
     font-size: 40px;
+    mix-blend-mode: difference;
+    z-index: 50;
+  }
+
+  .icon:hover {
+    color: grey;
+  }
+
+  .mobnav ul.hr li {
+    display: block;
+    /* Отображать как строчный элемент */
   }
 
   .skilsblock .imgblock {
@@ -1207,48 +1352,36 @@ td {
     text-align: center;
   }
 
-  .skilsblock .skilscontent {
-    float: right;
-    width: 100%;
-    height: 40%;
-    padding-top: 211px;
-    padding-bottom: 263px;
-    padding-left: 122px;
-    padding-bottom: 207px;
-  }
-
-  .skilsblock .slider {
-    width: 70%;
-    height: 50%;
-  }
-
   .skilsblock .imgtext {
     position: relative;
     width: 100%;
-    font-family: AvenirNextCyrBold;
-    font-size: 14px;
-  }
-
-  .skilsblock h1 {
+    height: 100%;
     font-family: AvenirNextCyrBold;
     line-height: 95px;
-    font-size: 40px;
-    letter-spacing: 0.02em;
+    font-size: 50px;
+    letter-spacing: 0.01em;
     color: white;
     text-align: left;
     text-transform: uppercase;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 0%;
+  }
+
+  .skilsblock .skilscontent {
+    float: flex;
+    width: 100%;
+    height: 45%;
+    justify-content: center;
   }
 
   .skilsblock h3 {
     font-family: AvenirNextCyrBold;
     line-height: 0px;
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 0.02em;
     color: black;
-    text-align: left;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
     text-transform: uppercase;
   }
 
@@ -1258,10 +1391,182 @@ td {
     font-size: 14px;
     letter-spacing: 0.02em;
     color: black;
-    text-align: left;
+    text-align: justify;
     padding: 0px;
     margin-top: 7%;
     margin-left: 5%;
     margin-right: 5%;
+  }
+
+  .skilsblock .slider {
+    position: relative;
+    top: 10%;
+    width: 85%;
+    height: 60%;
+  }
+
+  .leadership {
+    padding-top: 10%;
+  }
+
+  .leadership p {
+    text-align: justify;
+    font-family: AvenirNextCyrMedium;
+    line-height: 20px;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 7%;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .slick-track {
+    padding-bottom: 30%;
+  }
+
+  .slick-slide img {
+    width: 100%;
+    padding-bottom: 10%;
+    transform: scale(1.2);
+  }
+
+  .slick-current img {
+    z-index: 1;
+    padding-top: 27%;
+    transform: scale(1.7);
+  }
+
+  .contacts .contactus {
+    height: 100%;
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    float: right;
+    background-color: #2A2A2A;
+  }
+
+  .contacts .firstblock {
+    padding-top: 70px;
+    width: 100%;
+    height: 26%;
+    background-color: #303030;
+  }
+
+  .firstblock p {
+    font-family: AvenirNextCyrRegular;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .contacts .secondblock {
+    position: relative;
+    top: 99%;
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(90deg, #29E5F1 0%, #4DC5F5 100.1%);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .contacts .contactblock {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    height: 550px;
+  }
+
+  .contacts .map {
+    height: 100%;
+    width: 100%;
+    float: bottom;
+  }
+
+  .contacts .contactus {
+    height: 100%;
+    width: 100%;
+    float: top;
+    background-color: #2A2A2A;
+  }
+
+  .contactus .form {
+    width: 100%;
+    height: 46px;
+    color: #bbb;
+    text-align: center;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+
+  .footer .navbar {
+    position: relative;
+    float: left;
+    top: 15%;
+    left: 0%;
+  }
+
+  .footer .navtext {
+    font-family: AvenirNextCyrRegular;
+    line-height: 10px;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 7px;
+    color: white;
+  }
+
+  .footer .textblock {
+    display: none;
+  }
+
+  .footer .social {
+    position: absolute;
+    width: 60%;
+    top: 17%;
+    left: 40%;
+    letter-spacing: 0.5em;
+  }
+
+  .footer .address {
+    float: right;
+    position: relative;
+    text-align: right;
+    top: 29%;
+    right: 5%;
+  }
+
+  .footer .address p {
+    font-family: AvenirNextCyrMedium;
+    line-height: 27px;
+    font-size: 14px;
+    margin: 0px;
+    letter-spacing: 0.02em;
+    color: white;
+  }
+
+  .footer .copright {
+    position: relative;
+    float: left;
+    left: 5%;
+    width: 60%;
+    text-align: left;
+    top: 40%;
+  }
+
+  .footer .copright p {
+    font-family: AvenirNextCyrMedium;
+    line-height: 20px;
+    font-size: 15px;
+    margin: 0px;
+    letter-spacing: 0.02em;
+    color: white;
   }
 }

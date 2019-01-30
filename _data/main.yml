@@ -1,130 +1,130 @@
 en:
 
   header:
-    navbtn: Contact Us
-    h1: McCombs Consulting
-    p: We go partner with you to determine your business needs to create insightful and meaningful process improvements
-    btn: Contact Us
+    navbtn:     Contact Us
+    h1:         McCombs Consulting
+    p:          We go partner with you to determine your business needs to create insightful and meaningful process improvements
+    btn:        Contact Us
 
   solutions:
-    c1-p1: Start-Up Business Planning
-    c1-p2: Agile/SCRUM Reinforcement
-    c1-p3: Business Process Mapping
-    c1-p4: Project Management
-    c1-p5: Documentation & SOP Creation
-    c1-p6: Career Ladders
-    c1-p7: Business Application Provisioning
+    c1-p1:      Start-Up Business Planning
+    c1-p2:      Agile/SCRUM Reinforcement
+    c1-p3:      Business Process Mappingb
+    c1-p4:      Project Management
+    c1-p5:      Documentation & SOP Creation
+    c1-p6:      Career Ladders
+    c1-p7:      Business Application Provisioning
 
-    c2-p1: CRM Automation
-    c2-p2: Sales Operations Strategy
-    c2-p3: Revenue Enablement
-    c2-p4: Payroll Management
-    c2-p5: Accounting Management
-    c2-p6: Human Resources Management
-    c2-p7: Recruiting and ATS Management
-    c2-p8: Cross Platform Integrations
+    c2-p1:      CRM Automation
+    c2-p2:      Sales Operations Strategy
+    c2-p3:      Revenue Enablement
+    c2-p4:      Payroll Management
+    c2-p5:      Accounting Management
+    c2-p6:      Human Resources Management
+    c2-p7:      Recruiting and ATS Management
+    c2-p8:      Cross Platform Integrations
 
-    c3-p1: Affordable Engineering Resources
-    c3-p2: MVP Build
-    c3-p3: Staff Augmentation
-    c3-p4: Product Discovery
-    c3-p5: Technical Audits
-    c3-p6: Data visualization
-    c3-p7: Platform Migrations
-    c3-p8: Refactoring
+    c3-p1:      Affordable Engineering Resources
+    c3-p2:      MVP Build
+    c3-p3:      Staff Augmentation
+    c3-p4:      Product Discovery
+    c3-p5:      Technical Audits
+    c3-p6:      Data visualization
+    c3-p7:      Platform Migrations
+    c3-p8:      Refactoring
 
   aboutus:
-    h1: About Us
-    p: McCombs Consulting is New York based consultancy, dedicated to delivering business process and software development services. By partnering with you, we identify digital solutions to move your business forward. We have a passion for creating cutting edge software solutions.
+    h1:         About Us
+    p:          McCombs Consulting is New York based consultancy, dedicated to delivering business process and software development services. By partnering with you, we identify digital solutions to move your business forward. We have a passion for creating cutting edge software solutions.
 
   workprocess:
-    b1-h: KICK OFF INTERVIEW
-    b1-p: What does a business partnership start with? We will flesh out your ideas, and hone in on the most important pain points to better understand your vision
+    b1-h:       KICK OFF INTERVIEW
+    b1-p:       What does a business partnership start with? We will flesh out your ideas, and hone in on the most important pain points to better understand your vision
 
-    b2-h: ANALYSE AND PLAN
-    b2-p: This stage involves specifications development, project planning, wireframing, and cost estimation. This process allows us to guarantee that the product will adhere to strict guidelines
+    b2-h:       ANALYSE AND PLAN
+    b2-p:       This stage involves specifications development, project planning, wireframing, and cost estimation. This process allows us to guarantee that the product will adhere to strict guidelines
 
-    b3-h: ALL STARTS WITH DESIGN
-    b3-p: The planning and paperwork are behind us. So now we can move on to design. Once you're satisfied with the mock-up, we can build the functional prototype to test your idea
+    b3-h:       ALL STARTS WITH DESIGN
+    b3-p:       The planning and paperwork are behind us. So now we can move on to design. Once you're satisfied with the mock-up, we can build the functional prototype to test your idea
 
-    b4-h: IT’S ABOUT TIME TO CODE
-    b4-p: Now for the fun part. Our team can now start implementing the product’s functionality. We divide the development into sprints, then iterate until the tasks have been successfully completed to your standards
+    b4-h:       IT’S ABOUT TIME TO CODE
+    b4-p:       Now for the fun part. Our team can now start implementing the product’s functionality. We divide the development into sprints, then iterate until the tasks have been successfully completed to your standards
 
-    b5-h: READY FOR LAUNCH
-    b5-p: Once the product or solution is stable, you’ll have the opportunity to check the performance under real-market conditions. From here, we can monitor the application by utilizing user testing and gathering user feedback
+    b5-h:       READY FOR LAUNCH
+    b5-p:       Once the product or solution is stable, you’ll have the opportunity to check the performance under real-market conditions. From here, we can monitor the application by utilizing user testing and gathering user feedback
 
-    b6-h: FURTHER SUPPORT
-    b6-p: Users will always be better at testing a product than engineers will. With that being said we are responsible for every line of code we’ve written so we’re always available for any error or bugs that may arise
+    b6-h:       FURTHER SUPPORT
+    b6-p:       Users will always be better at testing a product than engineers will. With that being said we are responsible for every line of code we’ve written so we’re always available for any error or bugs that may arise
 
   belivein:
-    h: We strongly believe in
+    h:          We strongly believe in
 
-    s1-h: Transparent Partnership
-    s1-p: We believe that our ability to communicate open and honestly is just as important as our ability to provide solutions. This means that you can count on us to keep you informed every step of the way.
+    s1-h:       Transparent Partnership
+    s1-p:       We believe that our ability to communicate open and honestly is just as important as our ability to provide solutions. This means that you can count on us to keep you informed every step of the way.
 
-    s2-h: Wide range of skills
-    s2-p: Unlike many companies whose main goal is to convince to use whichever technology they specialize in; We have a wide range of skills that can suit any need that you may have
+    s2-h:       Wide range of skills
+    s2-p:       Unlike many companies whose main goal is to convince to use whichever technology they specialize in; We have a wide range of skills that can suit any need that you may have
 
-    s3-h: Personalized solutions
-    s3-p: Whether you have a small start-up, or a well established enterprise, we know that your business is unique. We guarantee a solution that geared towards your company’s needs.
+    s3-h:       Personalized solutions
+    s3-p:       Whether you have a small start-up, or a well established enterprise, we know that your business is unique. We guarantee a solution that geared towards your company’s needs.
 
-    s4-h: Service affordability
-    s4-p: You only pay for the hours that we work and not a penny a more.
+    s4-h:       Service affordability
+    s4-p:       You only pay for the hours that we work and not a penny a more.
 
-    s5-h: Transparent workflow
-    s5-p: We will keep you in the loop throughout all stages of the development process. By doing so we willl make your product faster, more qualitative, and incrementally more effective.
+    s5-h:       Transparent workflow
+    s5-p:       We will keep you in the loop throughout all stages of the development process. By doing so we willl make your product faster, more qualitative, and incrementally more effective.
 
-    s6-h: Evolving by experience
-    s6-p: You know how to get to Carnegie Hall? Practice. Apart from our work, we are always looking for ways to improve, facilitate technological progress, and take advantage of the opportunity to work on groundbreaking problems.
+    s6-h:       Evolving by experience
+    s6-p:       You know how to get to Carnegie Hall? Practice. Apart from our work, we are always looking for ways to improve, facilitate technological progress, and take advantage of the opportunity to work on groundbreaking problems.
 
   leadership:
-    h: Leadership
-    p: In the wake of hundreds of completed projects, we decided to combine our variety of industries insights. Our forward-thinking leadership team is made up of dedicated, focused and experienced executives. Working with each other and with our
+    h:          Leadership
+    p:          In the wake of hundreds of completed projects, we decided to combine our variety of industries insights. Our forward-thinking leadership team is made up of dedicated, focused and experienced executives. Working with each other and with our
       employees worldwide, their knowledge and experience combines to make a difference for all our customers
 
-    s1-p: Founder/CEO
-    s1-n: Bryant
+    s1-p:       Founder/CEO
+    s1-n:       Bryant
 
-    s2-p: CEO
-    s2-n: Eugene
+    s2-p:       CEO
+    s2-n:       Eugene
 
-    s3-p: Web Developer
-    s3-n: Vitaliy
+    s3-p:       Web Developer
+    s3-n:       Vitaliy
 
-    s4-p: Web Developer
-    s4-n: Alex
+    s4-p:       Web Developer
+    s4-n:       Alex
 
-    s5-p: Designer
-    s5-n: Tania
+    s5-p:       Designer
+    s5-n:       Tania
 
   contactus:
-    h: Contact Us
-    p: Fill out the form below, and we will contact you to get right into details about your needs
-    maplink: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d449.2982511955229!2d-73.97365973623239!3d40.750887526098964!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25903051dbcb7%3A0xc9bfa127cf704be7!2zVGhlIENpdHkgVW5pdmVyc2l0eSBPZiwgMjA1IEUgNDJuZCBTdCwgTmV3IFlvcmssIE5ZIDEwMDE3LCDQodC_0L7Qu9GD0YfQtdC90ZYg0KjRgtCw0YLQuCDQkNC80LXRgNC40LrQuA!5e0!3m2!1suk!2sua!4v1548690581910
+    h:          Contact Us
+    p:          Fill out the form below, and we will contact you to get right into details about your needs
+    maplink:    https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d449.2982511955229!2d-73.97365973623239!3d40.750887526098964!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25903051dbcb7%3A0xc9bfa127cf704be7!2zVGhlIENpdHkgVW5pdmVyc2l0eSBPZiwgMjA1IEUgNDJuZCBTdCwgTmV3IFlvcmssIE5ZIDEwMDE3LCDQodC_0L7Qu9GD0YfQtdC90ZYg0KjRgtCw0YLQuCDQkNC80LXRgNC40LrQuA!5e0!3m2!1suk!2sua!4v1548690581910
 
-    fname: Name
-    fmail: Email
-    fnum: Number
-    fmsg: Message
-    fp-name: Your Name
-    fp-mail: youremail@mail.com
-    fp-num: +
-    fp-msg: Some Message
-    fcbtn: CONTACT US
+    fname:      Name
+    fmail:      Email
+    fnum:       Number
+    fmsg:       Message
+    fp-name:    Your Name
+    fp-mail:    youremail@mail.com
+    fp-num:     +
+    fp-msg:     Some Message 
+    fcbtn:      CONTACT US
 
   footer:
-    s-fb: "#"
-    s-git: "#"
-    s-in: "https://www.linkedin.com/company/mccombs-consulting/"
-    s-insta: "https://www.instagram.com/McCombs_Consulting/"
-    s-twitter: "https://twitter.com/@McCombsConsult1"
+    s-fb:       "#"
+    s-git:      "#"
+    s-in:       "https://www.linkedin.com/company/mccombs-consulting/"
+    s-insta:    "https://www.instagram.com/McCombs_Consulting/"
+    s-twitter:  "https://twitter.com/@McCombsConsult1"
 
-    text: We partner with you to create viable solutions to drive your business ideas forward.
+    text:       We partner with you to create viable solutions to drive your business ideas forward.
 
-    a-street: 205 E 42nd St. 15th Floor
-    a-region: C/O Bryant McCombs
-    a-region2: New York, NY 10017
-    a-num1: (718)710-9563
-    a-mail: bryant@mcconsult.co
+    a-street:   205 E 42nd St. 15th Floor
+    a-region:   C/O Bryant McCombs
+    a-region2:  New York, NY 10017
+    a-num1:     (718)710-9563
+    a-mail:     bryant@mcconsult.co
 
-    copright: Copyright © 2019 McCombs Consulting LLC. Privacy Policy
+    copright:   Copyright © 2019 McCombs Consulting LLC. Privacy Policy

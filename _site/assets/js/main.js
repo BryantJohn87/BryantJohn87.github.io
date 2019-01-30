@@ -3,6 +3,7 @@ $(document).ready(function() {
     mobile: false,
     live: true
   }).init();
+
   $('.slider').slick({
     dots: true,
     arrows: false,
@@ -10,6 +11,7 @@ $(document).ready(function() {
     autoplaySpeed: 5000,
     centerPadding: '0px'
   });
+
   $('.center').on('init', function(event, slick) {
     $('.content').hide();
     $('.content[data-id=' + 1 + ']').show();
@@ -45,6 +47,7 @@ $(document).ready(function() {
     // open the menu with slide effect
     $(".mobnav").hide();
   });
+  
   var anchors = document.querySelectorAll('a[href*="#"]')
   for (let anchor of anchors) {
     anchor.addEventListener('click', function(e) {

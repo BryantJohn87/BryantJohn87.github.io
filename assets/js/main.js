@@ -53,29 +53,30 @@ $(document).ready(function() {
     $('.content[data-id=' + (currentSlide + 1) + ']').show();
   });
 
-  // when .menuBtn is clicked, do this
+
   $("#menuicon").click(function() {
-    // open the menu with slide effect
+
     $(".mobnav").slideToggle(300);
   });
 
   $("#menuicon2").click(function() {
-    // open the menu with slide effect
+
     $(".mobnav").slideToggle(300);
   });
 
   $("#close, #close2, #close3, #close4").click(function() {
-    // open the menu with slide effect
+
     $(".mobnav").hide();
   });
 
-  $(document).mouseup(function (e){ // отслеживаем событие клика по веб-документу
-      var block = $(".mobnav"); // определяем элемент, к которому будем применять условия (можем указывать ID, класс либо любой другой идентификатор элемента)
-      if (!block.is(e.target) // проверка условия если клик был не по нашему блоку
-          && block.has(e.target).length === 0) { // проверка условия если клик не по его дочерним элементам
-          block.slideUp(300); // если условия выполняются - скрываем наш элемент
+  $(document).mouseup(function (e){
+      var block = $(".mobnav");
+      if (!block.is(e.target)
+          && block.has(e.target).length === 0) {
+          block.slideUp(300);
       }
   });
+
   var anchors = document.querySelectorAll('a[href*="#"]')
   for (let anchor of anchors) {
     anchor.addEventListener('click', function(e) {

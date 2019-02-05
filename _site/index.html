@@ -8,16 +8,17 @@
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <!-- Animate/slick -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
   <!-- bootstrap 4 -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+  <script src="assets/js/slick.min.js"></script>
   <!-- local files -->
+  <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png?">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/fontello.css">
   <script src="assets/js/main.js"></script>
@@ -26,6 +27,13 @@
 
 <body>
   <header>
+  <div class="mheader" id="myHeader">
+    <div class="mlogo">
+    </div>
+    <div class="micon">
+      <i id="menuicon" class="icon-nav"></i>
+    </div>
+</div>
   <div class="mobnav">
     <nav>
       <ul class="hr">
@@ -110,59 +118,74 @@
     </div>
   </div>
   <div class="coldivs">
-    <div class="coldiv1">
+    <div id="coldiv1" class="coldiv1">
+      <div class="info1">
+        <p>Wouldn’t it be great if you could make less mistakes in the earlier stages of your business? Over the years of work at the IT market, we have accumulated an experience to run your projects smoothly.</p>
+      </div>
       <section class="wow fadeInLeft">
-        Start-Up Business Planning
-        <br>
-        Agile/SCRUM Reinforcement
-        <br>
-        Business Process Mappingb
-        <br>
-        Project Management
-        <br>
-        Documentation & SOP Creation
-        <br>
-        Career Ladders
-        <br>
-        Business Application Provisioning
+        <div class="con">
+          Start-Up Business Planning
+          <br>
+          Agile/SCRUM Reinforcement
+          <br>
+          Business Process Mappingb
+          <br>
+          Project Management
+          <br>
+          Documentation & SOP Creation
+          <br>
+          Career Ladders
+          <br>
+          Business Application Provisioning
+        </div>
       </section>
     </div>
     <div class="coldiv2">
+      <div class="info2">
+        <p>Monotonous tasks are annoying, aren’t they? Our automations allow you to focus your time on the most important aspects of your business.</p>
+      </div>
       <section class="wow fadeIn">
-        CRM Automation
-        <br>
-        Sales Operations Strategy
-        <br>
-        Revenue Enablement
-        <br>
-        Payroll Management
-        <br>
-        Accounting Management
-        <br>
-        Human Resources Management
-        <br>
-        Recruiting and ATS Management
-        <br>
-        Cross Platform Integrations
+        <div class="con">
+          CRM Automation
+          <br>
+          Sales Operations Strategy
+          <br>
+          Revenue Enablement
+          <br>
+          Payroll Management
+          <br>
+          Accounting Management
+          <br>
+          Human Resources Management
+          <br>
+          Recruiting and ATS Management
+          <br>
+          Cross Platform Integrations
+        </div>
       </section>
     </div>
     <div class="coldiv3">
+      <div class="info3">
+        <p>So, you decided to develop an app for your business, or need a few engineers to add some horsepower to your project? We’ll pair you with  developers specific to your needs and requirements.</p>
+      </div>
       <section class="wow fadeInRight">
-        Affordable Engineering Resources
-        <br>
-        MVP Build
-        <br>
-        Staff Augmentation
-        <br>
-        Product Discovery
-        <br>
-        Technical Audits
-        <br>
-        Data visualization
-        <br>
-        Platform Migrations
-        <br>
-        Refactoring
+        <div class="con">
+          Affordable Engineering Resources
+          <br>
+          MVP Build
+          <br>
+          Staff Augmentation
+          <br>
+          Product Discovery
+          <br>
+          Technical Audits
+          <br>
+          Data visualization
+          <br>
+          Platform Migrations
+          <br>
+          Refactoring
+        </div>
       </section>
     </div>
   </div>
@@ -299,7 +322,7 @@
   </section>
   </div>
 
-  <div class="imgsblock wow fadeIn">
+  <div class="imgsblock">
   <div class="center">
     <div>
       <img src="assets/img/b.png"/>
@@ -309,12 +332,6 @@
     </div>
     <div>
       <img src="assets/img/v.png"/>
-    </div>
-    <div>
-      <img src="assets/img/s.png"/>
-    </div>
-    <div>
-      <img src="assets/img/t.png"/>
     </div>
   </div>
   <section class="content" data-id="1">
@@ -352,7 +369,7 @@
       <br>
     </div>
     <div class="contactblock">
-      <div class="contactus wow fadeInDown">
+      <div class="contactus wow fadeInUp">
         <section class="cont wow fadeIn" data-wow-duration="1.3s">
           <h1>Contact Us</h1>
           <br><br>
@@ -360,20 +377,20 @@
         </section>
         <form action="https://formspree.io/bryant@mcconsult.co" method="POST">
           <p>Name</p>
-          <input class="form" placeholder="Your Name" type="text" name="name">
+          <input class="form" placeholder="your name" type="text" name="name">
           <p>Email</p>
-          <input class="form" placeholder="youremail@mail.com" type="email" required pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$" name="email">
+          <input class="form" placeholder="your email" type="email" required pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$" name="email">
           <p>Number</p>
-          <input class="form" placeholder="+" type="number" name="number">
+          <input class="form" placeholder="enter your phone nuber" type="number" name="number">
           <p>Message</p>
-          <input class="form" placeholder="Some Message" type="textarea" name="message">
+          <input class="form" placeholder="what we can do for you?" type="textarea" name="message">
           <br><br>
           <div class="buttons">
             <button class="btn-primary btn-contact">CONTACT US</button>
           </div>
         </form>
       </div>
-      <div class="map wow fadeInDown">
+      <div class="map wow fadeInUp">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d449.2982511955229!2d-73.97365973623239!3d40.750887526098964!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25903051dbcb7%3A0xc9bfa127cf704be7!2zVGhlIENpdHkgVW5pdmVyc2l0eSBPZiwgMjA1IEUgNDJuZCBTdCwgTmV3IFlvcmssIE5ZIDEwMDE3LCDQodC_0L7Qu9GD0YfQtdC90ZYg0KjRgtCw0YLQuCDQkNC80LXRgNC40LrQuA!5e0!3m2!1suk!2sua!4v1548690581910" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen="allowfullscreen"></iframe>
       </div>
     </div>

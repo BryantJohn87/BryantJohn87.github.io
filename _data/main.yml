@@ -7,6 +7,10 @@ en:
     btn:        Contact Us
 
   solutions:
+    i1-p: Wouldn’t it be great if you could make less mistakes in the earlier stages of your business? Over the years of work at the IT market, we have accumulated an experience to run your projects smoothly.
+    i2-p: Monotonous tasks are annoying, aren’t they? Our automations allow you to focus your time on the most important aspects of your business.
+    i3-p: So, you decided to develop an app for your business, or need a few engineers to add some horsepower to your project? We’ll pair you with  developers specific to your needs and requirements.
+
     c1-p1:      Start-Up Business Planning
     c1-p2:      Agile/SCRUM Reinforcement
     c1-p3:      Business Process Mappingb
@@ -106,10 +110,10 @@ en:
     fmail:      Email
     fnum:       Number
     fmsg:       Message
-    fp-name:    Your Name
-    fp-mail:    youremail@mail.com
-    fp-num:     +
-    fp-msg:     Some Message 
+    fp-name:    your name
+    fp-mail:    your email
+    fp-num:     enter your phone nuber
+    fp-msg:     what we can do for you?
     fcbtn:      CONTACT US
 
   footer:

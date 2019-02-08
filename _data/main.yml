@@ -89,17 +89,11 @@ en:
     s1-p:       Founder/CEO
     s1-n:       Bryant
 
-    s2-p:       CEO
+    s2-p:       CTO
     s2-n:       Eugene
 
-    s3-p:       Web Developer
-    s3-n:       Vitaliy
-
-    s4-p:       Web Developer
-    s4-n:       Alex
-
-    s5-p:       Designer
-    s5-n:       Tania
+    s3-p:       CMO
+    s3-n:       Inna
 
   contactus:
     h:          Contact Us

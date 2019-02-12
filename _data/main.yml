@@ -13,7 +13,7 @@ en:
 
     c1-p1:      Start-Up Business Planning
     c1-p2:      Agile/SCRUM Reinforcement
-    c1-p3:      Business Process Mappingb
+    c1-p3:      Business Process Mapping
     c1-p4:      Project Management
     c1-p5:      Documentation & SOP Creation
     c1-p6:      Career Ladders
@@ -43,22 +43,22 @@ en:
 
   workprocess:
     b1-h:       KICK OFF INTERVIEW
-    b1-p:       What does a business partnership start with? We will flesh out your ideas, and hone in on the most important pain points to better understand your vision
+    b1-p:       What does a business partnership start with? We will flesh out your ideas, and hone in on the most important pain points to better understand your vision.
 
     b2-h:       ANALYSE AND PLAN
-    b2-p:       This stage involves specifications development, project planning, wireframing, and cost estimation. This process allows us to guarantee that the product will adhere to strict guidelines
+    b2-p:       This stage involves specifications development, project planning, wireframing, and cost estimation. This process allows us to guarantee that the product will adhere to strict guidelines.
 
     b3-h:       ALL STARTS WITH DESIGN
-    b3-p:       The planning and paperwork are behind us. So now we can move on to design. Once you're satisfied with the mock-up, we can build the functional prototype to test your idea
+    b3-p:       The planning and paperwork are behind us. So now we can move on to design. Once you're satisfied with the mock-up, we can build the functional prototype to test your idea.
 
     b4-h:       IT’S ABOUT TIME TO CODE
-    b4-p:       Now for the fun part. Our team can now start implementing the product’s functionality. We divide the development into sprints, then iterate until the tasks have been successfully completed to your standards
+    b4-p:       Now for the fun part. Our team can now start implementing the product’s functionality. We divide the development into sprints, then iterate until the tasks have been successfully completed to your standards.
 
     b5-h:       READY FOR LAUNCH
-    b5-p:       Once the product or solution is stable, you’ll have the opportunity to check the performance under real-market conditions. From here, we can monitor the application by utilizing user testing and gathering user feedback
+    b5-p:       Once the product or solution is stable, you’ll have the opportunity to check the performance under real-market conditions. From here, we can monitor the application by utilizing user testing and gathering user feedback.
 
     b6-h:       FURTHER SUPPORT
-    b6-p:       Users will always be better at testing a product than engineers will. With that being said we are responsible for every line of code we’ve written so we’re always available for any error or bugs that may arise
+    b6-p:       Users will always be better at testing a product than engineers will. With that being said we are responsible for every line of code we’ve written so we’re always available for any error or bugs that may arise.
 
   belivein:
     h:          We strongly believe in
@@ -67,7 +67,7 @@ en:
     s1-p:       We believe that our ability to communicate open and honestly is just as important as our ability to provide solutions. This means that you can count on us to keep you informed every step of the way.
 
     s2-h:       Wide range of skills
-    s2-p:       Unlike many companies whose main goal is to convince to use whichever technology they specialize in; We have a wide range of skills that can suit any need that you may have
+    s2-p:       Unlike many companies whose main goal is to convince to use whichever technology they specialize in; We have a wide range of skills that can suit any need that you may have.
 
     s3-h:       Personalized solutions
     s3-p:       Whether you have a small start-up, or a well established enterprise, we know that your business is unique. We guarantee a solution that geared towards your company’s needs.
@@ -84,7 +84,7 @@ en:
   leadership:
     h:          Leadership
     p:          In the wake of hundreds of completed projects, we decided to combine our variety of industries insights. Our forward-thinking leadership team is made up of dedicated, focused and experienced executives. Working with each other and with our
-      employees worldwide, their knowledge and experience combines to make a difference for all our customers
+      employees worldwide, their knowledge and experience combines to make a difference for all our customers.
 
     s1-p:       Founder/CEO
     s1-n:       Bryant

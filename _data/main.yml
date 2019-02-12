@@ -3,7 +3,7 @@ en:
   header:
     navbtn:     Contact Us
     h1:         McCombs Consulting
-    p:          We go partner with you to determine your business needs to create insightful and meaningful process improvements
+    p:          We partner with you to create insightful and valuable process improvements.
     btn:        Contact Us
 
   solutions:
@@ -39,14 +39,14 @@ en:
 
   aboutus:
     h1:         About Us
-    p:          McCombs Consulting is New York based consultancy, dedicated to delivering business process and software development services. By partnering with you, we identify digital solutions to move your business forward. We have a passion for creating cutting edge software solutions.
+    p:          McCombs Consulting is a consultancy based in New York City , dedicated to delivering business processes and software development services. We help you identify digital solutions to move your business forward with our passion for creating cutting edge software solutions.
 
   workprocess:
     b1-h:       KICK OFF INTERVIEW
     b1-p:       What does a business partnership start with? We will flesh out your ideas, and hone in on the most important pain points to better understand your vision.
 
     b2-h:       ANALYSE AND PLAN
-    b2-p:       This stage involves specifications development, project planning, wireframing, and cost estimation. This process allows us to guarantee that the product will adhere to strict guidelines.
+    b2-p:       This stage involves specifications development, project planning, wireframing, and cost estimation. This process allows us to guarantee that the product will adhere to your company's guidelines.
 
     b3-h:       ALL STARTS WITH DESIGN
     b3-p:       The planning and paperwork are behind us. So now we can move on to design. Once you're satisfied with the mock-up, we can build the functional prototype to test your idea.
@@ -63,10 +63,10 @@ en:
   belivein:
     h:          We strongly believe in
 
-    s1-h:       Transparent Partnership
+    s1-h:       Transparent Partnerships
     s1-p:       We believe that our ability to communicate open and honestly is just as important as our ability to provide solutions. This means that you can count on us to keep you informed every step of the way.
 
-    s2-h:       Wide range of skills
+    s2-h:       Wide range of competencies
     s2-p:       Unlike many companies whose main goal is to convince to use whichever technology they specialize in; We have a wide range of skills that can suit any need that you may have.
 
     s3-h:       Personalized solutions
@@ -75,7 +75,7 @@ en:
     s4-h:       Service affordability
     s4-p:       You only pay for the hours that we work and not a penny a more.
 
-    s5-h:       Transparent workflow
+    s5-h:       Transparent workflows
     s5-p:       We will keep you in the loop throughout all stages of the development process. By doing so we willl make your product faster, more qualitative, and incrementally more effective.
 
     s6-h:       Evolving by experience
